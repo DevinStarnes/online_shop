@@ -22,7 +22,6 @@ namespace ChienVHShopOnline.Models
         public string Content { get; set; }
         public Nullable<System.DateTime> CreatedDate { get; set; }
         public Nullable<int> Status { get; set; }
-    
         public virtual User User { get; set; }
     }
 }
